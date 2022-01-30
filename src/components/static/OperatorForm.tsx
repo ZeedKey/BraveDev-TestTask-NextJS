@@ -48,7 +48,7 @@ const OperatorForm = (props: IFormProps) => {
   const getValidity = async () =>
     await validationSchema.isValid({
       phone: form.phone.replace("_", "").trim(),
-      money: Number(form.money.replace("RU", "").trim()),
+      money: Number(form.money.replace("RU", "").replace("_", "").trim()),
     });
 
   const doFormChange = (e: React.ChangeEvent<HTMLFormElement>) =>
