@@ -21,7 +21,6 @@ function Input(props: ICustomInputProps) {
     <CustomInput
       value={props.value}
       mask={props.mask}
-      maskChar=" "
       name={props.name}
       onChange={props.onChange}
       disabled={props.disabled}
