@@ -17,7 +17,6 @@ interface ICustomInputProps {
 }
 
 function Input(props: ICustomInputProps) {
-  const maskChar = props.mask === undefined ? "" : props.mask;
   return (
     <CustomInput
       value={props.value}

@@ -19,7 +19,8 @@ function Footer() {
   return (
     <Container>
       <p>
-        <Link href="https://github.com/ZeedKey">Volokh -ZLint- Yaroslav</Link><br />
+        <Link href="https://github.com/ZeedKey">Volokh -ZLint- Yaroslav</Link>
+        <br />
         2022
       </p>
     </Container>

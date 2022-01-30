@@ -4,7 +4,6 @@ const CustomButton = styled.button`
   font-size: 1.6ch;
   font-family: Roboto;
   width: fit-content;
-
   background-color: rgb(102, 187, 106);
   outline: none;
   border: none;

@@ -24,17 +24,13 @@ interface IOperatorProps {
 }
 
 function OperatorCard(props: IOperatorProps) {
-  const router = useRouter();
-
   return (
     <Card>
       <Name>{props.name}</Name>
       <Image src={props.icon} width={50} height={50} alt="operator_image" />
 
       <Link href={"/operator/" + props.name}>
-        <Button type="button">
-          Выбрать
-        </Button>
+        <Button type="button">Выбрать</Button>
       </Link>
     </Card>
   );
